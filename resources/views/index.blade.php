@@ -27,7 +27,7 @@
       <td>{{$s->nis}}</td>
       <td>{{$s->alamat}}</td>
       <td>
-      <a href="" class="btn btn-dark">EDIT</a>
+      <a href="{{ route('students.edit', $s) }}" class="btn btn-dark">EDIT</a>
       <a href="" class="btn btn-warning">DELETE</a> 
     </td>
     </tr>
